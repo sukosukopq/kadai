@@ -1,1 +1,1 @@
-console.log('クリーピーナッツ')
+console.log('creepy nuts')
