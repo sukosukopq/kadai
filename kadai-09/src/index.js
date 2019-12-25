@@ -1,8 +1,9 @@
 const a = require('./module-a')
 const b = require('./module-b')
+// const cowsay = require('cowsay')
 
 a()
 b()
 
-const cowsay = require('cowsay')
-console.log(cowsay.say({ text: 'Moo! '}))
+
+// console.log(cowsay.say({ text: 'Moo! '}))
