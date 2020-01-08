@@ -1,5 +1,5 @@
 const http = require('http')
-const server = http.createServer((req,res) => {
+const server = http.createServer((req, res) => {
     //リクエストを確認
     console.log(req.url)
     res.write('domo')
