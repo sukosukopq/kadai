@@ -2,7 +2,7 @@
 const day = parseInt(process.argv[2])
 
  if (day === 7) {
-    console.log('あなたはAAな性格です')
+    console.log('あなたは7日に生まれたような性格です')
 } else if (day % 3 === 0) {
     console.log('あなたはAな性格です')
 } else if (day % 3 === 1) {

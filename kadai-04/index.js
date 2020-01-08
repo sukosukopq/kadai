@@ -1,17 +1,23 @@
-const product = (a,b) => {
-    console.log(a*b)
+const product = (a, b) => {
+    return a * b
 }
+
+const pro = product(107, 109)
+console.log(pro)
+
+
+
 
 const sum = (n) => {
-    let result=0
-    for (i=1; i<=n; i=i+1){
-        result=result+1
+    let result = 0
+    for(i = 1; i <= n; i = i + 1) {
+        result = result + i
     }
-    console.log(sum2)
+    return result
 }
 
+const su = sum(500)
+console.log(su)
 
-product(107,109)
-sum(10)
 
-//まだ
+//　できた
